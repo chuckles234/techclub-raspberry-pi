@@ -7,6 +7,26 @@ app.get('/', function (req, res) {
 });
 
 // reply to request with "Hello World!"
+app.get('/charlie', function (req, res) {
+  res.send('He is a special child. 👺');
+});
+
+// reply to request with "Hello World!"
+app.get('/luca', function (req, res) {
+  res.send('Is better than Charlie 👍');
+});
+
+// reply to request with "Hello World!"
+app.get('/patrick', function (req, res) {
+  res.send('I am not a special human being');
+});
+
+// reply to request with "Hello World!"
+app.get('/Mattjarowicz124', function (req, res) {
+  res.send('<img src="https://1.cdn.edl.io/PFEZa720lyk061N3jV0Aoxi3Riwnf1xDQb2gitXOXMO7n9n8.jpg"/>');
+});
+
+// reply to request with "Hello World!"
 app.get('/Jaden', function (req, res) {
   res.send('IF you get a bigger bed you have bed room but less bedroom');
 });
