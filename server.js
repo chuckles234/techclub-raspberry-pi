@@ -41,10 +41,17 @@ app.get('/Kevin', function (req, res) {
   res.send('<img src="https://1.cdn.edl.io/NxweujMTQoV6du3OYqMzyyGjXLNY7QDOogCXDxRqmpjamqwk.jpg"> </i>');
 });
 
+// reply to request with "Hello World!"
+app.get('/dan', function (req, res) {
+  res.send('<span style="font-size: 24pt; color: pink;">lit</span>');
+});
+
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
   var port = server.address().port;
   console.log('Example app listening on port ', port);
 
+  
+  
 });
