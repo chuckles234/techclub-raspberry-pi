@@ -12,6 +12,11 @@ app.get('/charlie', function (req, res) {
 });
 
 // reply to request with "Hello World!"
+app.get('/luca', function (req, res) {
+  res.send('Is better than Charlie 👍');
+});
+
+// reply to request with "Hello World!"
 app.get('/patrick', function (req, res) {
   res.send('I am not a special human being');
 });
