@@ -12,11 +12,6 @@ app.get('/charlie', function (req, res) {
 });
 
 // reply to request with "Hello World!"
-app.get('/luca', function (req, res) {
-  res.send('Is better than Charlie');
-});
-
-// reply to request with "Hello World!"
 app.get('/Kevin', function (req, res) {
   res.send('<img src="https://1.cdn.edl.io/NxweujMTQoV6du3OYqMzyyGjXLNY7QDOogCXDxRqmpjamqwk.jpg"> </i>');
 });
