@@ -31,6 +31,11 @@ app.get('/Jaden', function (req, res) {
   res.send('IF you get a bigger bed you have bed room but less bedroom');
 });
 
+// reply to request with "Hello World!"
+app.get('/Kevin', function (req, res) {
+  res.send('<img src="https://1.cdn.edl.io/NxweujMTQoV6du3OYqMzyyGjXLNY7QDOogCXDxRqmpjamqwk.jpg"> </i>');
+});
+
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
