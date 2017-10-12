@@ -16,6 +16,11 @@ app.get('/luca', function (req, res) {
   res.send('Is better than Charlie 👍');
 });
 
+// reply to request with "Hello World!"
+app.get('/patrick', function (req, res) {
+  res.send('I am not a special human being');
+});
+
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
