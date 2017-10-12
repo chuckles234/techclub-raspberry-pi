@@ -17,6 +17,11 @@ app.get('/luca', function (req, res) {
 });
 
 // reply to request with "Hello World!"
+app.get('/chuckles234', function (req, res) {
+  res.send('According to Brock the Rob Johnson, my name is anothy.');
+});
+
+// reply to request with "Hello World!"
 app.get('/patrick', function (req, res) {
   res.send('I am not a special human being');
 });
