@@ -13,7 +13,7 @@ app.get('/charlie', function (req, res) {
 
 // reply to request with "Hello World!"
 app.get('/luca', function (req, res) {
-  res.send('Is better than Charlie 👍');
+  res.send('The stupidest person in the world with no friends or family. Seriosly, its so bad that its become sad. Pretty funny though.');
 });
 
 // reply to request with "Hello World!"
