@@ -20,6 +20,7 @@
     "method-override": "^2.3.0",
     "mongoose": "^4.1.2",
     "morgan": "^1.6.1",
+    "openweathermap": "^1.0.0",
     "pug": "^2.0.0-rc.4",
     "serve-favicon": "^2.3.0"
   },
